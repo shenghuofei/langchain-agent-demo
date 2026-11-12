@@ -1,0 +1,26 @@
+# 环境变量和密钥
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 本地数据
+# notes.json 可能包含个人或业务内容，不提交
+/data/notes.json
+/data/*.db
+
+# 日志
+*.log
+
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
